@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="se">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Products</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+       <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/products.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 40%;
+      margin: auto;
+  }
+
+  .carousel-indicators{
+      background: rgba(0, 0, 0, 0.37); 
+  }
+  </style>
+
+</head>
+
+<body>
+
+    <div class="brand">ComputerShop Inc</div>
+    <div class="address-bar">Tomtebodavägen 3 A | 171 65, Solna | 59.34531, 18.02352</div>
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Products</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Products</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="event.html">Event</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- container -->
+<div class="container">
+    
+    <!-- top banner -->
+    <div class="col-md-col-md-12 text-center row">
+        <div class="box">
+            <h1 class="intro-text text-center"><strong>Våra produkter</strong></h1>
+            <hr>
+        </div>
+    </div>
+
+    <!-- imageboxes -->
+    <div class="col-lg-12 text-center row">
+        <!-- Box -->
+        <div class="box">
+
+            <!--Borjar row 1-->
+            <div class="col-lg-12">
+
+                <!-- box 1 -->
+                <div class="col-md-6">
+                    <!--carousel 1-->
+                    <hr><h2 class="intro-text text-center">Stationär dator</h2><hr>
+                    <div id="myCarousel-1" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-1" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-1" data-slide-to="1"></li>
+                            <li data-target="#myCarousel-1" data-slide-to="2"></li>
+                            <li data-target="#myCarousel-1" data-slide-to="3"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="img/stat1.jpg" alt="1">
+                            </div>
+                            <div class="item">
+                                <img src="img/stat2.jpg" alt="2">
+                            </div>
+                                <div class="item">
+                                <img src="img/stat3.jpg" alt="3">
+                            </div>
+                            <div class="item">
+                                <img src="img/stat4.jpg" alt="4">
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel-1" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel-1" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!--dropdown 1-->
+                    <div class="btn-group">
+
+                       <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Typ av dator</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Stationär datorv</a></li>
+                                <li><a href="#">Allt-i-ett dator</a></li>
+                                <li><a href="#">Speldator (gaming)</a></li>
+                                <li><a href="#">Minidator</a></li>
+
+                            </ul>
+                       </div>
+
+                         <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Märke</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Acer</a></li>
+                                <li><a href="#">Apple</a></li>
+                                <li><a href="#">Lenovo</a></li>
+                                <li><a href="#">MSI</a></li>
+                                <li><a href="#">Packard Bell</a></li>
+                               
+
+                            </ul>
+                         </div>
+                        
+                         <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Processor (CPU)</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Intel Core i3</a></li>
+                                <li><a href="#">Intel Core i7</a></li>
+                                <li><a href="#">AMD A6</a></li>
+                                <li><a href="#">AMD A8</a></li>
+                                <li><a href="#">AMD Elite Quad Core A10</a></li>
+                                <li><a href="#">Intel Celeron </a></li>
+                                <li><a href="#">Intel Core i5</a></li>
+                                <li><a href="#">Intel Pentium </a></li>
+                                <li><a href="#">Intel Xeon </a></li>
+                            </ul>
+                         </div>
+                        
+                        <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Typ av lagring</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">HDD 41</a></li>
+                                <li><a href="#">SSD 50</a></li>
+                                <li><a href="#">Hybridlagring</a></li>
+                                <li><a href="#">SSD HDD</a></li>
+                            </ul>
+                        </div>
+                    
+                     <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Pris</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Under... 5000</a></li>
+                                <li><a href="#">5000 - 7499</a></li>
+                                <li><a href="#">7500 - 9999</a></li>
+                                <li><a href="#">10000 - 14999</a></li>
+                                <li><a href="#">15000 - 19999</a></li>
+                                <li><a href="#">Över... 20000</a></li>
+                            </ul>
+                     </div>
+
+                    </div>
+                </div>          
+
+                <!-- box 2 -->
+                <div class="col-md-6">
+                    <!--carousel 2-->
+                    <hr><h2 class="intro-text text-center">Bärbar dator</h2><hr>
+                    <div id="myCarousel-2" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-2" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-2" data-slide-to="1"></li>
+                            <li data-target="#myCarousel-2" data-slide-to="2"></li>
+                            <li data-target="#myCarousel-2" data-slide-to="3"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="img/bb1.jpg" alt="1">
+                            </div>
+                            <div class="item">
+                                <img src="img/bb2.jpg" alt="2">
+                            </div>
+                                <div class="item">
+                                <img src="img/bb3.jpg" alt="3">
+                            </div>
+                            <div class="item">
+                                <img src="img/bb4.jpg" alt="4">
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel-2" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel-2" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!--dropdown 1-->
+                    <div class="btn-group">
+
+                        <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Märke</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                              <li><a href="#">Acer</a></li>
+                              <li><a href="#">HUAWEI</a></li>
+                              <li><a href="#">Lenovo</a></li>
+                              <li><a href="#">MSI</a></li>
+                              <li><a href="#">Microsoft</a></li>
+                              <li><a href="#">Packard Bell</a></li>
+                              <li><a href="#">Samsung</a></li>
+                              <li><a href="#">Toshiba</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Skärmstorlek</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">8.9 1</a></li>
+                                <li><a href="#">10.8 2</a></li>
+                                <li><a href="#">11.6 8</a></li>
+                                <li><a href="#">12.3 7</a></li>
+                                <li><a href="#">13.9 8</a></li>
+                                <li><a href="#">13.3 56</a></li>
+                                <li><a href="#">14 56</a></li>
+                                <li><a href="#">15.6 96</a></li>
+                                <li><a href="#">17.3 25</a></li>
+                            </ul>
+                        </div>
+
+                         <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Processor</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">6</a></li>
+                                <li><a href="#">7</a></li>
+                                <li><a href="#">9</a></li>
+                                <li><a href="#">11</a></li>
+                                <li><a href="#">15</a></li>
+                                <li><a href="#">18</a></li>
+                                <li><a href="#">29</a></li>
+                                <li><a href="#">58</a></li>
+                                <li><a href="#">106</a></li>
+                            </ul>
+                         </div>
+
+                        <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>RAM (GB)</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">17</a></li>
+                                <li><a href="#">18</a></li>
+                                <li><a href="#">32</a></li>
+                                <li><a href="#">91</a></li>
+                                <li><a href="#">138</a></li>
+                            </ul>
+                        </div>
+
+                         <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Grafikkort</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">AMD</a></li>
+                                <li><a href="#">Intel</a></li>
+                                <li><a href="#">NVIDIA</a></li>
+                            </ul>
+                         </div>
+                            
+                     <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Pris</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Under... 5000</a></li>
+                                <li><a href="#">5000 - 7499</a></li>
+                                <li><a href="#">7500 - 9999</a></li>
+                                <li><a href="#">10000 - 14999</a></li>
+                                <li><a href="#">15000 - 19999</a></li>
+                                <li><a href="#">Över... 20000</a></li>
+                            </ul>
+                            </div>
+
+                         </div>
+                     </div>
+
+                 </div>
+           
+            <!--Borjar row 2-->
+            <div class="col-lg-12">
+
+                <!-- box 3 -->
+                <div class="col-md-6">
+                    <!--carousel 3-->
+                    <hr><h2 class="intro-text text-center">Ipad & Surplata</h2><hr>
+                    <div id="myCarousel-3" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-3" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-3" data-slide-to="1"></li>
+                            <li data-target="#myCarousel-3" data-slide-to="2"></li>
+                            <li data-target="#myCarousel-3" data-slide-to="3"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="img/ip1.jpg" alt="1">
+                            </div>
+                            <div class="item">
+                                <img src="img/ip2.jpg" alt="2">
+                            </div>
+                                <div class="item">
+                                <img src="img/ip3.jpg" alt="3">
+                            </div>
+                            <div class="item">
+                                <img src="img/ip4.jpg" alt="4">
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel-3" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel-3" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!--dropdown 1-->
+                    <div class="btn-group">
+
+                          <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Märke</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                              <li><a href="#">Acer</a></li>
+                              <li><a href="#">HUAWEI</a></li>
+                              <li><a href="#">Lenovo</a></li>
+                              <li><a href="#">MSI</a></li>
+                              <li><a href="#">Microsoft</a></li>
+                              <li><a href="#">Packard Bell</a></li>
+                              <li><a href="#">Samsung</a></li>
+                              <li><a href="#">Toshiba</a></li>
+                            </ul>
+                          </div>
+
+                         <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Storlek</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">7 3</a></li>
+                                <li><a href="#">8.9 1</a></li>
+                                <li><a href="#">9.6 3</a></li>
+                                <li><a href="#">9.7 53</a></li>
+                                <li><a href="#">10.1 36</a></li>
+                                <li><a href="#">10.8 2</a></li>
+                                <li><a href="#">11.6 5</a></li>
+                                <li><a href="#">12.5 4</a></li>
+                                <li><a href="#">13.9 8</a></li>
+                                <li><a href="#">14 31</a></li>
+                                <li><a href="#">15.6 1</a></li>
+                            </ul>
+                         </div>
+
+
+                          <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Mobil nätverk</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Ja</a></li>
+                                <li><a href="#">Nej</a></li>
+                                <li><a href="#">3G/4G (LTE)</a></li>
+                                <li><a href="#">4G (LTE)</a></li>
+                            </ul>
+                          </div>   
+                    
+                     <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>RAM (GB)</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">17</a></li>
+                                <li><a href="#">18</a></li>
+                                <li><a href="#">32</a></li>
+                                <li><a href="#">91</a></li>
+                                <li><a href="#">138</a></li>
+                            </ul>
+                     </div>
+
+                        <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Färg</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Blå</a></li>
+                                <li><a href="#">Grå</a></li>
+                                <li><a href="#">Grå Svart</a></li>
+                                <li><a href="#">Guld</a></li>
+                                <li><a href="#">Rosa</a></li>
+                                <li><a href="#">Silver</a></li>
+                                <li><a href="#">Svart</a></li>
+                                <li><a href="#">vit</a></li>
+                            </ul>
+                        </div>
+
+                             <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Pris</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Under... 5000</a></li>
+                                <li><a href="#">5000 - 7499</a></li>
+                                <li><a href="#">7500 - 9999</a></li>
+                                <li><a href="#">10000 - 14999</a></li>
+                                <li><a href="#">15000 - 19999</a></li>
+                                <li><a href="#">Över... 20000</a></li>
+                            </ul>
+                             </div>
+
+                         </div>
+                     </div>
+
+                <!-- box 4 -->
+                <div class="col-md-6">
+                    <!--carousel 4-->
+                   <hr><h2 class="intro-text text-center">Programvara</h2><hr>
+                    <div id="myCarousel-4" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-4" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-4" data-slide-to="1"></li>
+                            <li data-target="#myCarousel-4" data-slide-to="2"></li>
+                            <li data-target="#myCarousel-4" data-slide-to="3"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="img/prog1.jpg" alt="1">
+                            </div>
+                            <div class="item">
+                                <img src="img/prog2.jpg" alt="2">
+                            </div>
+                                <div class="item">
+                                <img src="img/prog3.jpg" alt="3">
+                            </div>
+                            <div class="item">
+                                <img src="img/prog4.jpg" alt="4">
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel-4" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel-4" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!--dropdown 1-->
+                    <div class="btn-group">
+                                        
+                        <div class="btn-group">
+                            <button type="button" class=".btn-btn-link dropdown-toggle" data-toggle="dropdown"><h6>Typ av program</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                              	<li><a href="#">Antivirus</a></li>
+                                <li><a href="#">Bildredigering</a></li>
+                                <li><a href="#">Officeprogram</a></li>
+                                <li><a href="#">Operativsystem</a></li>
+                                <li><a href="#">Videoredigering</a></li>
+                            </ul>
+                        </div>
+
+                     <div class="btn-group">
+                            <button type="button" class=".btn-btn-link dropdown-toggle" data-toggle="dropdown"><h6>Utgivare</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">McAfee</a></li>
+                                <li><a href="#">Microsoft</a></li>
+                                <li><a href="#">Parallels</a></li>
+								<li><a href="#">Symantec</a></li>
+                                <li><a href="#">Adobe </a></li>
+								<li><a href="#">Corel</a></li>
+                                <li><a href="#">F-Secure</a></li>
+                            </ul>
+                     </div>
+
+                     <div class="btn-group">
+                            <button type="button" class=".btn-btn-link dropdown-toggle" data-toggle="dropdown"><h6>Typ av media</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Digital nedladdning</a></li>
+                                <li><a href="#">DVD</a></li>
+                                <li><a href="#">Kod för nedladdning</a></li>
+								<li><a href="#">Nedladdning</a></li>
+                                <li><a href="#">USB</a></li>
+                            </ul>
+                      </div>
+                                  </div>
+                              </div>
+
+                         </div>
+                   
+                <!--Borjar row 3-->
+            <div class="col-lg-12">
+
+                <!-- box 5 -->
+                <div class="col-md-6">
+                    <!--carousel 5-->
+                     <hr><h2 class="intro-text text-center">Hårdvara</h2><hr>
+                    <div id="myCarousel-5" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-5" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-5" data-slide-to="1"></li>
+                            <li data-target="#myCarousel-5" data-slide-to="2"></li>
+                            <li data-target="#myCarousel-5" data-slide-to="3"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="img/hard1.jpg" alt="1">
+                            </div>
+                            <div class="item">
+                                <img src="img/hard2.jpg" alt="2">
+                            </div>
+                                <div class="item">
+                                <img src="img/hard3.jpg" alt="3">
+                            </div>
+                            <div class="item">
+                                <img src="img/hard4.jpg" alt="4">
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel-5" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel-5" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!--dropdown 1-->
+                    <div class="btn-group">
+                          <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Bildeskärm</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Gaming</a></li>
+                                <li><a href="#">Standard 15 - 25"</a></li>
+                                <li><a href="#">Standard 26 - 27"</a></li>
+								<li><a href="#">Standard 28" och större</a></li>
+                            </ul>
+                          </div>
+
+                         <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Mus & tagenbord</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Produkttyp</a></li>
+                                <li><a href="#">Trådlös</a></li>
+                                <li><a href="#">Pris</a></li>
+                            </ul>
+                         </div>
+
+                     <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Skrivare</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">3D-skrivare</a></li>
+                                <li><a href="#">Bläckstråleskrivare</a></li>
+                                <li><a href="#">Etikettskrivare</a></li>
+								<li><a href="#">Fax</a></li>
+                                <li><a href="#">Laserskrivare</a></li>
+								<li><a href="#">Scanner</a></li>
+                                <li><a href="#">Storformatskrivare</a></li>
+                            </ul>
+                     </div>
+
+                             <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Hårddisk, SSD & NAS</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Produkttyp</a></li>
+                                <li><a href="#">Typ av drive</a></li>
+                                <li><a href="#">Märke</a></li>
+								<li><a href="#">Lagringskapacitet (GB)</a></li>
+                                <li><a href="#">Pris</a></li>
+                            </ul>
+                         </div>
+                                     
+                         </div>
+                     </div>
+            
+                <!-- box 6 -->
+                <div class="col-md-6">
+                    <!--carousel 6-->
+                     <hr><h2 class="intro-text text-center">Tillbehör</h2><hr>
+                    <div id="myCarousel-6" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-6" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-6" data-slide-to="1"></li>
+                            <li data-target="#myCarousel-6" data-slide-to="2"></li>
+                            <li data-target="#myCarousel-6" data-slide-to="3"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="img/erb1.jpg" alt="1">
+                            </div>
+                            <div class="item">
+                                <img src="img/erb2.jpg" alt="2">
+                            </div>
+                                <div class="item">
+                                <img src="img/erb3.jpg" alt="3">
+                            </div>
+                            <div class="item">
+                                <img src="img/erb4.jpg" alt="4">
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel-6" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel-6" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!--dropdown 1-->
+                    <div class="btn-group">
+                        <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Datorväska</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Pris</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Kablar & adaptrar</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Pris</a></li>
+                            </ul>
+                        </div>
+
+                         <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Toner</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Pris</a></li>
+                            </ul>
+                        </div>
+
+                         <div class="btn-group">
+                            <button type="button" class=".btn-default dropdown-toggle" data-toggle="dropdown"><h6>Övrigt</h6><span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Pris</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                  <!--Borjar row 4-->
+            <div class="col-lg-12">
+                    <!--carousel 7-->
+                    <hr><h2 class="intro-text text-center">Kampanjer</h2><hr>
+                    <div id="myCarousel-5" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-7" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-7" data-slide-to="1"></li>
+                            <li data-target="#myCarousel-7" data-slide-to="2"></li>
+                            <li data-target="#myCarousel-7" data-slide-to="3"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="img/banner0.jpg" alt="1">
+                            </div>
+                            <div class="item">
+                                <img src="img/banner5.jpg" alt="2">
+                            </div>
+                                <div class="item">
+                                <img src="img/banner8.jpg" alt="3">
+                            </div>
+                            <div class="item">
+                                <img src="img/banner9.jpg" alt="4">
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel-7" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel-7" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                     <!--dropdown 1-->
+                    <div class="btn-group">
+                        <button type="button" class=".btn-default"><h6>Nya produkter</h6></button>
+                        <button type="button" class=".btn-default"><h6>Veckans erbjudande</h6></button>
+                        <button type="button" class=".btn-default"><h6>Find</h6></button>
+                    </div>
+           
+            </div>
+      <hr>
+
+            <!-- pager -->
+            <hr>
+            <div class="col-lg-12 text-center">
+                <ul class="pager">
+                    <li class="previous"><a href="#">N</a>
+                    </li>
+                    <li class="next"><a href="#">N</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- /.box -->
+    </div>
+    <!-- /.imageboxes -->
+
+</div>
+<!-- /.container -->
+
+<script type="text/javascript" src="js/footer.js"></script>
+ 
+</body>
+</html>
