@@ -58,6 +58,7 @@ footer {
 }
 
 .foot-nav>li a {
+    color: #777;
     display: block;
     text-align: center;
 	padding: 0px 15px;
@@ -65,12 +66,12 @@ footer {
 }
 
 .foot-nav>li a:hover {
-   background-color: black;
-   color:white;
+   color:black;
 }
 
 
 .copyR {
+    padding-right: 75px;
 	text-align: right;
    	margin-top:40px;
 }
