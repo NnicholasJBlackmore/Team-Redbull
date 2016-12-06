@@ -12,7 +12,7 @@ document.write("<footer>" +
 	"</div>" +
 
 	"<div class='col-4'>" +
-		"Keep in Touch: <input type='email' class='email'>" +
+		"Keep in Touch: <input type='email' class='email' placeholder='email..'>" +
 	"</div>" +
 
 	"<div class='col-3'>" +
