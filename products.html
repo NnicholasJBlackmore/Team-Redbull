@@ -15,6 +15,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Custom Navbar CSS -->
+    <link href="css/extra.css" rel="stylesheet">
+    <!-- Custom Footer CSS -->
+    <link href="css/AUstyle.css" rel="stylesheet">
+
        <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <script src="js/products.js"></script>
@@ -36,51 +42,37 @@
   </style>
 
 </head>
+<style>
+    input[type=text] {
+        width: 200px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        margin-top: 8%;
+    }
+</style>
 
 <body>
 
     <div class="brand">ComputerShop Inc</div>
     <div class="address-bar">Tomtebodavägen 3 A | 171 65, Solna | 59.34531, 18.02352</div>
 
-<nav class="navbar navbar-default" role="navigation">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Products</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="products.html">Products</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                    <li>
-                        <a href="event.html">Event</a>
-                    </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+    <!-- Navigation -->
+    <div><script type="text/javascript" src="js/navigation.js"></script></div>
 
 <!-- container -->
 <div class="container">
     
     <!-- top banner -->
-    <div class="col-md-col-md-12 text-center row">
+    <div class="col-lg-12 text-center row">
         <div class="box">
             <h1 class="intro-text text-center"><strong>Våra produkter</strong></h1>
             <hr>
@@ -751,8 +743,8 @@
 
 </div>
 <!-- /.container -->
-
-<script type="text/javascript" src="js/footer.js"></script>
+</div>
+    <script type="text/javascript" src="js/footer.AU.js"></script>
  
 </body>
 </html>
