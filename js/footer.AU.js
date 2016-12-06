@@ -4,10 +4,10 @@ document.write("<footer>" +
 	"<div class='col-5'>" +
 		"<ul class='foot-nav'>" +
 			"<li><a href='#home'>Home</a></li>" +
-			"<li><a href='#news'>News</a></li>" +
-			"<li><a href='#contact'>Contact</a></li>" +
-			"<li><a href='#about'>About</a></li>" +
-			"<li><a href='#product'>Product</a></li>" +
+			"<li><a href='#news'>Products</a></li>" +
+			"<li><a href='#contact'>About</a></li>" +
+			"<li><a href='#about'>Contact</a></li>" +
+			"<li><a href='#product'>Event</a></li>" +
 		"</ul>" +
 	"</div>" +
 
@@ -27,7 +27,7 @@ document.write("<footer>" +
 
 "<div class='row'>" +
 	"<div class='col-12 copyR'>" +
-		"Copyright &copy; Your Website 2014" +
+		"Copyright &copy; Your Website 2016" +
 	"</div>" +
 "</div>" +
 
