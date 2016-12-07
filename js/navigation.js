@@ -35,8 +35,8 @@
                     "</li>" +
                     "<li>" +
                         "<form method='get' action='http://www.google.com/cse'>" +
-                            "<input type='text' name='text' placeholder='Search..'>" +
-                            "<input class='left-12' type='submit' name='sa' value='Sök'>" +                        
+                            "<input class='left-12 search-bar-nav' type='text' name='text' placeholder='Search..'>" +
+                            "<input class='search-bar-nav-button'type='submit' name='sa' value='Sök'>" +
                         "</form>" +
                     "</li>" +
                 "</ul>" +
