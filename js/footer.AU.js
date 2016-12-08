@@ -12,7 +12,7 @@ document.write("<footer>" +
 	"</div>" +
 
 	"<div class='col-4'>" +
-		"Keep in Touch: <input type='email' class='email' placeholder='email..'>" + 
+		"Keep in Touch: <input type='email' class='email' placeholder='email..'>" +
         "<input type='submit' name='sa' value='Ok'>" +
 	"</div>" +
 
@@ -27,9 +27,11 @@ document.write("<footer>" +
 "</div>" +
 
 "<div class='row'>" +
+
 	"<div class='col-12 copyR'>" +
 		"Copyright &copy; Your Website 2016" +
 	"</div>" +
+
 "</div>" +
 
 "</footer>")
