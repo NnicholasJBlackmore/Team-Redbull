@@ -27,13 +27,11 @@ document.write("<footer>" +
 "</div>" +
 
 "<div class='row'>" +
-    "<div class='col-9>" +
-		" " +
-	"</div>" +
 
-	"<div class='col-3 copyR'>" +
+	"<div class='col-12 copyR'>" +
 		"Copyright &copy; Your Website 2016" +
 	"</div>" +
+
 "</div>" +
 
 "</footer>")
