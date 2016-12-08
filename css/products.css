@@ -1,0 +1,14 @@
+ .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 40%;
+            margin: auto;
+        }
+
+        .carousel-indicators{
+            background: rgba(0, 0, 0, 0.37);
+        }
+
+        .#myCarousel-7{
+         height: 300px;
+         width: 300px;
+        }
